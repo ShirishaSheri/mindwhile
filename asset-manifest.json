@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/mindwhile/static/css/main.f708acdf.css",
+    "main.js": "/mindwhile/static/js/main.a929cc1d.js",
+    "static/media/mindwhile_log.png": "/mindwhile/static/media/mindwhile_log.882e4c5be97d19f1a03d.png",
+    "static/media/website.png": "/mindwhile/static/media/website.4ef2bd7be5052ade469f.png",
+    "static/media/hotel.png": "/mindwhile/static/media/hotel.6253c338a7564f14047d.png",
+    "static/media/grouping.png": "/mindwhile/static/media/grouping.ffd400f3b407c1379657.png",
+    "static/media/customer.png": "/mindwhile/static/media/customer.cd8ce30db66fe63e1fd4.png",
+    "static/media/student.png": "/mindwhile/static/media/student.409d731d46a337dfabe4.png",
+    "static/media/students.png": "/mindwhile/static/media/students.e1a7c67bde9c89840df7.png",
+    "static/media/invoice.png": "/mindwhile/static/media/invoice.388e26f837e047bf196c.png",
+    "static/media/online-learning.png": "/mindwhile/static/media/online-learning.536a2317da20c83e8488.png",
+    "static/media/immigration.png": "/mindwhile/static/media/immigration.7a1ad24a6d1f0a9fe7a5.png",
+    "static/media/admin.png": "/mindwhile/static/media/admin.2ba97968a5d41f978d36.png",
+    "static/media/exam.png": "/mindwhile/static/media/exam.084adf86694c0e878a29.png",
+    "static/media/money.png": "/mindwhile/static/media/money.dd058123c5382f53f6ec.png",
+    "static/media/reception.png": "/mindwhile/static/media/reception.c8a41794159f72e64fb1.png",
+    "static/media/calendar.png": "/mindwhile/static/media/calendar.be7ca45798313854e040.png",
+    "static/media/library.png": "/mindwhile/static/media/library.b77b4248dc30606e1dc4.png",
+    "static/media/id-card.png": "/mindwhile/static/media/id-card.78e6794a975075202f2e.png",
+    "static/media/domainhost.svg": "/mindwhile/static/media/domainhost.a1f41f7cc6a45b42dd6629bd719a2fbb.svg",
+    "static/media/hireandroid.svg": "/mindwhile/static/media/hireandroid.8c8721700ab64ecfd9e39bd9bb7b2c2f.svg",
+    "static/media/digitalmarket.svg": "/mindwhile/static/media/digitalmarket.4ad9431ce5f4fe3adeb8893dd7654469.svg",
+    "static/media/hireuidev.svg": "/mindwhile/static/media/hireuidev.99f95229be664c9a704e37f30f7abd71.svg",
+    "static/media/paymentint.svg": "/mindwhile/static/media/paymentint.60d6c8812c00704a18a3a8b471ddf800.svg",
+    "static/media/androiddev.svg": "/mindwhile/static/media/androiddev.8a31628ac26970e6499490ca70b3ef40.svg",
+    "static/media/iosdev.svg": "/mindwhile/static/media/iosdev.d52cf0ae3e381e09029706aa843a5aba.svg",
+    "static/media/webuiuxdev.svg": "/mindwhile/static/media/webuiuxdev.e05eb2a0438e94089669db31a782d008.svg",
+    "static/media/PhoneCall.svg": "/mindwhile/static/media/PhoneCall.10ed47352ab9ea7b643964390661c854.svg",
+    "static/media/Hotel.svg": "/mindwhile/static/media/Hotel.9769c867a9ff63fea9f1a76a4609161d.svg",
+    "static/media/School.svg": "/mindwhile/static/media/School.0cadb03fe3a91d19894a30e1a1b2e1ca.svg",
+    "static/media/MapPin.svg": "/mindwhile/static/media/MapPin.f18b411feb6d5291abff03102c2bc0d8.svg",
+    "static/media/Mail.svg": "/mindwhile/static/media/Mail.1cf04e5afb58c7ddc0678ac0d5586515.svg",
+    "index.html": "/mindwhile/index.html",
+    "main.f708acdf.css.map": "/mindwhile/static/css/main.f708acdf.css.map",
+    "main.a929cc1d.js.map": "/mindwhile/static/js/main.a929cc1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f708acdf.css",
+    "static/js/main.a929cc1d.js"
+  ]
+}
