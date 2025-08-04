@@ -79,7 +79,7 @@ const [products, setProducts] = useState("");
 
       {/* Desktop Nav Links */}
       <div className="hidden md:flex items-center space-x-6">
-        <a href="/" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Home</a>
+        <Link href="/" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Home</Link>
         <a href="/about" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">
           About
         </a>
