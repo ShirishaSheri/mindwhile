@@ -24,7 +24,7 @@ import Hireios from './components/Hireios';
 import HotelManagement from './components/Hotelmanagement';
 import SchoolERP from './components/SchoolERP';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route,
     Navigate,
