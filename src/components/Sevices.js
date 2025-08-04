@@ -13,6 +13,7 @@ import digitalmarket from '../assets/digitalmarket.svg';
 import domainhosting from '../assets/domainhost.svg';
 import hirephp from '../assets/hireuidev.svg';
 import hireios from '../assets/hireuidev.svg';
+import { Link } from 'react-router';
 
 const Services = (props) => {
   
@@ -48,7 +49,7 @@ const Services = (props) => {
               <div class="relative left-[25vw] bottom-[16vw] h-[25vw] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400"></div>
 
             <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/webdev" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900"
+              <Link to="/webdev" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900"
              
               
               >Web & UI/UX Development
@@ -57,79 +58,79 @@ const Services = (props) => {
                <svg class="relative top-[0.35vw] right-[2.7vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
-            </a> 
+            </Link> 
               </div>
               <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/androiddev" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900">Android Development
+              <Link to="/androiddev" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900">Android Development
                 <img class="relative top-[0.1vw] right-[13.6vw] h-[1.5vw] w-[4.5vw] opacity-100" src={androiddev} />
                <svg class="relative top-[0.35vw]   rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
               <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/paymentint" class="flex relative top-[1vw] left-[1.5vw] px-6 py-0 text-md font-serif font-medium text-black-900">Payment Integration
+              <Link to="/paymentint" class="flex relative top-[1vw] left-[1.5vw] px-6 py-0 text-md font-serif font-medium text-black-900">Payment Integration
                <img class="relative top-[0.1vw] right-[13.1vw] h-[1.5vw] w-[4.5vw] opacity-100" src={paymentint} />
                <svg class="relative top-[0.35vw] left-[0.3vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
               <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/hireux" class="flex relative top-[1vw] left-[1.5vw] px-6 py-0 text-md font-serif font-medium text-black-900">Hire UI/UX Developer
+              <Link to="/hireux" class="flex relative top-[1vw] left-[1.5vw] px-6 py-0 text-md font-serif font-medium text-black-900">Hire UI/UX Developer
                <img class="relative top-[0.1vw] right-[14vw] h-[1.5vw] w-[4.5vw] opacity-100" src={hireuidev} />
                <svg class="relative top-[0.35vw] right-[0.8vw]  rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
               <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/hireandroiddev" class="flex relative top-[1vw] left-[1.9vw] px-3 py-0 text-md font-serif font-medium text-black-900">Hire Android Developer
+              <Link to="/hireandroiddev" class="flex relative top-[1vw] left-[1.9vw] px-3 py-0 text-md font-serif font-medium text-black-900">Hire Android Developer
               <img class="relative top-[0.1vw] right-[14.6vw] h-[1.5vw] w-[4.5vw] opacity-100" src={hireandroid} />
                 <svg class="relative top-[0.35vw] right-[1.3vw]  rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
               <div class="relative left-[50vw] bottom-[60vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/iosdev" class="flex relative top-[0.8vw] left-[0.5vw] px-6 py-0 text-md font-serif font-medium text-black-900">iOS Development
+              <Link to="/iosdev" class="flex relative top-[0.8vw] left-[0.5vw] px-6 py-0 text-md font-serif font-medium text-black-900">iOS Development
                <img class="relative top-[0.01vw] right-[11.5vw] h-[1.5vw] w-[4.5vw] opacity-100" src={iosdev} />
                <svg class="relative top-[0.35vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
                <div class="relative left-[50vw] bottom-[60vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/marketing" class="flex relative top-[0.8vw] left-[0.55vw] px-6 py-0 text-md font-serif font-medium text-black-900">Digital Marketing
+              <Link to="/marketing" class="flex relative top-[0.8vw] left-[0.55vw] px-6 py-0 text-md font-serif font-medium text-black-900">Digital Marketing
                <img class="relative top-[0.01vw] right-[11.5vw] h-[1.5vw] w-[4.5vw] opacity-100" src={digitalmarket} />
                <svg class="relative top-[0.35vw] right-[0.2vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
                <div class="relative left-[50vw] bottom-[60vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/domainhosting" class="flex relative top-[0.8vw] left-[0.55vw] px-6 py-0 text-md font-serif font-medium text-black-900">Domain & Hosting
+              <Link to="/domainhosting" class="flex relative top-[0.8vw] left-[0.55vw] px-6 py-0 text-md font-serif font-medium text-black-900">Domain & Hosting
                <img class="relative top-[0.01vw] right-[11.9vw] h-[1.5vw] w-[4.5vw] opacity-100" src={domainhosting} />
                <svg class="relative top-[0.35vw] right-[0.8vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
                 <div class="relative left-[50vw] bottom-[60vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/hirephp" class="flex relative top-[0.8vw] left-[0.55vw] px-6 py-0 text-md font-serif font-medium text-black-900">Hipe Php Developer
+              <Link to="/hirephp" class="flex relative top-[0.8vw] left-[0.55vw] px-6 py-0 text-md font-serif font-medium text-black-900">Hipe Php Developer
                <img class="relative top-[0.01vw] right-[12.6vw] h-[1.5vw] w-[4.5vw] opacity-100" src={hireuidev} />
                <svg class="relative top-[0.35vw] right-[1.5vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
                 <div class="relative left-[50vw] bottom-[60vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/hireios" class="flex relative top-[0.8vw] left-[0.55vw] px-4 py-0 text-md font-serif font-medium text-black-900">Hire iOS Developer
+              <Link to="/hireios" class="flex relative top-[0.8vw] left-[0.55vw] px-4 py-0 text-md font-serif font-medium text-black-900">Hire iOS Developer
                <img class="relative top-[0.01vw] right-[12.4vw] h-[1.5vw] w-[4.5vw] opacity-100" src={hireuidev} />
                <svg class="relative top-[0.35vw] right-[1.2vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
              
            

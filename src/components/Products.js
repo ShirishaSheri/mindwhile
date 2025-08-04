@@ -13,6 +13,7 @@ import digitalmarket from '../assets/digitalmarket.svg';
 import domainhosting from '../assets/domainhost.svg';
 import hirephp from '../assets/hireuidev.svg';
 import hireios from '../assets/hireuidev.svg';
+import { Link } from 'react-router';
 
 const Products = (props) => {
   
@@ -47,7 +48,7 @@ const Products = (props) => {
 
              {/* <div class="absolute top-[0.5vw] left-[25vw] -ml-0.05 w-0.5 h-[24vw] bg-gray-300"></div> */}
             <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/hotel" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900"
+              <Link to="/hotel" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900"
                 // onClick={() => {
                 //                 {OnServices({comp:"webdev"})}
                 //         }}
@@ -58,17 +59,17 @@ const Products = (props) => {
                <svg class="relative top-[0.35vw] right-[2.7vw] rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
-            </a> 
+            </Link> 
               </div>
               <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
-              <a href="/school" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900">
+              <Link to="/school" class="flex relative top-[1vw] left-[1.5vw] px-3 py-0 text-md font-serif font-medium text-black-900">
               
               School ERP Software
                 <img class="relative top-[0.1vw] right-[13.1vw] h-[1.5vw] w-[4.5vw] opacity-100" src={school} />
                <svg class="relative top-[0.35vw]   rtl:rotate-180 w-3.5 h-3.5 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="#3d62d3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+            </Link> 
               </div>
               {/* <div class="relative left-[26.5vw] bottom-[40vw] h-[4vw] rounded-lg hover:border-2 w-[22vw] hover:border-blue-600">
               <a href="/paymentint" class="flex relative top-[1vw] left-[1.5vw] px-6 py-0 text-md font-serif font-medium text-black-900">Payment Integration

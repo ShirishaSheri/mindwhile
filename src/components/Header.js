@@ -8,9 +8,11 @@ import Dots from '../animations/Dotsanimation.json';
 import ITServices from '../animations/ITDeal.json'; 
 import Services from './Sevices';
 import Products from './Products';
+import { Link } from 'react-router';
 const Header = (props) => {
 const [services, setServices] = useState("");
 const [products, setProducts] = useState("");
+
 
 	// Function triggered when the form is submitted
 	 const OnServices = (services) => {
@@ -79,20 +81,20 @@ const [products, setProducts] = useState("");
 
       {/* Desktop Nav Links */}
       <div className="hidden md:flex items-center space-x-6">
-        <Link href="/" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Home</Link>
-        <a href="/about" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">
+        <Link to="/" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Home</Link>
+        <Link to="/about" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">
           About
-        </a>
+        </Link>
         <div 
           onMouseEnter={() => OnProducts({ mousein: true })}
           className="relative group cursor-pointer"
         >
-          <a href="/products" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600 flex items-center gap-1">
+          <Link to="/products" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600 flex items-center gap-1">
             Products
             <svg className="w-3 h-3" viewBox="0 0 10 6" fill="none">
               <path d="M1 1l4 4 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-          </a>
+          </Link>
           <span className="absolute top-0 right-[-8px] inline-flex h-2 w-2 animate-ping rounded-full bg-blue-900 opacity-75"></span>
         </div>
 
@@ -100,16 +102,16 @@ const [products, setProducts] = useState("");
           onMouseEnter={() => OnServices({ mousein: true })}
           className="relative group cursor-pointer"
         >
-          <a href="#" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600 flex items-center gap-1">
+          <Link to="/services" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600 flex items-center gap-1">
             Services
             <svg className="w-3 h-3" viewBox="0 0 10 6" fill="none">
               <path d="M1 1l4 4 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-          </a>
+          </Link>
         </div>
 
-        <a href="/careers" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Careers</a>
-        <a href="/contact" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Contact</a>
+        <Link to="/careers" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Careers</Link>
+        <Link to="/contact" className="text-lg font-serif font-medium text-gray-700 hover:text-blue-600">Contact</Link>
       </div>
 
       {/* Optional: Mobile Menu Button (not functional without JS toggle) */}
